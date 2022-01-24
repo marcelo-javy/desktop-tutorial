@@ -1,0 +1,21 @@
+<p>acumulador works! vamos ahi:</p>
+
+<div class="row">
+    <div class ="col-md-4">
+        <span>
+            {{cnt}}
+        </span>
+    </div>
+</div>
+
+<div class="body-contador d-flex-row flex-nowrap align-items-center justify-content-around">
+    <button class= "btn btn-outline-primary" (click)="changeValue(-acumulador)" >
+        -{{acumulador}}
+    </button>
+    {{cnt}}
+<div class="body-contador d-flex-row flex-nowrap align-items-center justify-content-around">
+    <button class= "btn btn-outline-primary" (click)="changeValue(acumulador)">
+        +{{acumulador}}
+    </button>
+
+</div>
